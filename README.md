@@ -22,6 +22,7 @@ Upcoming:
 11. Bagging and voting blog
 12. DBSCAN Clustering Blog
 
+
 # Gradient descent 
 Visualization tool:
 
