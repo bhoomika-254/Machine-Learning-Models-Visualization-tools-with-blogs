@@ -24,7 +24,7 @@ Upcoming:
 
 # Gradient descent 
 Visualization tool:
-
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/67fc9ace-4351-4e2b-b1ec-3fc28482ad9c
 ......Blog Coming Soon........
 
 # Decision Tree
