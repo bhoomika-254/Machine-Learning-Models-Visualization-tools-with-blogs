@@ -24,11 +24,15 @@ Upcoming:
 
 # Gradient descent 
 Visualization tool:
+
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/67fc9ace-4351-4e2b-b1ec-3fc28482ad9c
+
 ......Blog Coming Soon........
 
 # Decision Tree
 Visualization tool:
+
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/3518b8dc-ae7b-456e-b75a-bf2c3eb4b43a
 
 ......Blog Coming Soon........
 
@@ -147,20 +151,28 @@ And disadvantage? We cant use in large dataset like suppose we got a data set wi
 # Voting Classifier
 Visualization tool:
 
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/95192a43-0836-4eeb-8979-a02341fbd8f5
+
 ......Blog Coming Soon........
 
 # Voting Regressor
 Visualization tool:
 
-......Blog Coming Soon........
-
-# Bagging Regressor
-Visualization tool:
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/00534a61-ece5-46a2-a8b0-4df2cdb9e4e9
 
 ......Blog Coming Soon........
 
 # Bagging Regressor
 Visualization tool:
+
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/dd434c9b-2c73-41ae-ae80-48bcd3da532a
+
+......Blog Coming Soon........
+
+# Bagging Classifier
+Visualization tool:
+
+https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/84abc359-cd81-4436-8215-eaa4c2334568
 
 ......Blog Coming Soon........
 
