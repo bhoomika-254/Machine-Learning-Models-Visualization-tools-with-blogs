@@ -25,12 +25,41 @@ Upcoming:
 # Gradient descent 
 Visualization tool:
 
+Open
+```bash
+gd_sgd_app.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/gd_sgd_app.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (gd_sgd_app.py path over your local pc)
+```
+Demo:
+
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/67fc9ace-4351-4e2b-b1ec-3fc28482ad9c
 
 ......Blog Coming Soon........
 
 # Decision Tree
 Visualization tool:
+
+Open
+```bash
+decision_tree.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/decision_tree.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (decision_tree.py path over your local pc)
+```
+Demo:
+
 
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/3518b8dc-ae7b-456e-b75a-bf2c3eb4b43a
 
@@ -151,12 +180,40 @@ And disadvantage? We cant use in large dataset like suppose we got a data set wi
 # Voting Classifier
 Visualization tool:
 
+Open
+```bash
+voting_classifier.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/voting_classifier.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (voting_classifier.py path over your local pc)
+```
+Demo:
+
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/95192a43-0836-4eeb-8979-a02341fbd8f5
 
 ......Blog Coming Soon........
 
 # Voting Regressor
 Visualization tool:
+
+Open
+```bash
+voting_regressor.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/voting_regressor.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (voting_regressor.py path over your local pc)
+```
+Demo:
 
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/00534a61-ece5-46a2-a8b0-4df2cdb9e4e9
 
@@ -165,12 +222,40 @@ https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/00534a61-ece5-46a2
 # Bagging Regressor
 Visualization tool:
 
+Open
+```bash
+bagging_regressor.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/bagging_regressor.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (bagging_regressor.py path over your local pc)
+```
+Demo:
+
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/dd434c9b-2c73-41ae-ae80-48bcd3da532a
 
 ......Blog Coming Soon........
 
 # Bagging Classifier
 Visualization tool:
+
+Open
+```bash
+bagging_classifier.py
+```
+and paste this over your terminal
+```bash
+streamlit run /workspaces/SGD-Visualiser/bagging_classifier.py
+```
+and if the above dosen't work out then run 
+```bash
+streamlit run (bagging_classifier.py path over your local pc)
+```
+Demo:
 
 https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/84abc359-cd81-4436-8215-eaa4c2334568
 
