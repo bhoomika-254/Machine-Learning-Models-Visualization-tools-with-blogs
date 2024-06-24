@@ -83,5 +83,3 @@ if st.sidebar.button('Run Algorithm'):
     tree = export_graphviz(clf,feature_names=["Col1","Col2"])
 
     st.graphviz_chart(tree)
-    
-# like aise save kar phir go to side panel
