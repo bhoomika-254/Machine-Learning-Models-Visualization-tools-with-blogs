@@ -19,6 +19,7 @@ Upcoming:
 8. Papers
 9. Notebook for visualizing few models
 10. Stacking and blending Blog and notebook
+11. Bagging and voting blog
 
 # Clustering Algorithms
 
