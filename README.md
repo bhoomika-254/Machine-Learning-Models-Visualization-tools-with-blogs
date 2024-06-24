@@ -40,12 +40,12 @@ In other models we have binary (0 and 1) classes for output but here in adaboost
 basically here in adaboost we randomly create decision stumps (Decision stumps are the decision trees with max depth as 1) and after that we check the mis classified points and let the next model know to focus on these misclassified points more using upsampling (it means increase the value of those which are misclassified) so that the next models (weak learners) handles the misclassified point well. It's akin to making a mistake in life and advising your siblings to avoid the same path.
 after that for each model, we generate an alpha value, which indicates the model's influence during prediction. If a model makes accurate predictions, it receives a high alpha value; if it performs poorly, it gets a low alpha value. This process is repeated for multiple base models, continuously improving the overall accuracy of the ensemble.
 
-So initially we assign a weight to every row which is 1/n (n is number of rows) means same wight for all initially.
+1. Initially, in AdaBoost, we assign a weight to every row, which is (1/n) (where n is the number of rows), meaning each row has the same weight at the start.
 
-After that in stage 1 we train a decision tree with max depth 1 or can say we train a decision stump,Intuitively we know we will get many decision stumps but we will select the one which got max decrease in entropy and like this we got our model m1 and we check the prediction on m1 using test column now we calculate alpha1 which depends upon error rate.
-But how do we calculate it? suppose we got 3 models a, b and c and we got error rate as 100%, 0% and 50% so which one is more trustable? a, because we know it will always make mistake no matter what so we can make the prediction negative and take that as real output so in low error we need high alpha and if error is more we need some negative alpha, and on 50% error we get 0.5 alpha so such function is 1/2 ln(1-error) where error is sum of all misclassified points wt (one we initiated initially using 1/n)
+2. In the first stage, we train a decision tree with a maximum depth of 1, known as a decision stump. We generate many decision stumps but select the one that results in the maximum decrease in entropy. This becomes our model m1. We then test m1 and calculate alpha1, which depends on the error rate.
 
-next we do upsampling where we increase the wt of misclassified points so that next model gets to know what mistake previous model made like in which points it made mistake.
+But how do we calculate it? suppose we got 3 models a, b and c and we got error rate as 100%, 0% and 50% so which one is more trustable? a is most predictible because we know it already that it will always make mistake no matter what so we can just make its prediction negative and take that as real output. Therefore, low error rates correspond to high alpha values, and high error rates correspond to negative alpha values. For a 50% error rate, alpha is 0.5. so such function is 1/2*ln(1-error/error) where error is sum of all misclassified points weights (one we initiated using 1/n)
+Next, we perform upsampling by increasing the weights of the misclassified points, so the next model can focus on these points. The weight updates are as follows:
 for misclassified points: new_wt= curr_wt*e^alpha1
 for correctly classified points: new_wt= curr_wt*e^-alpha1
 after that we make a new column with updated wt also make sure that the sum of updated weight is 1 so basically we normalise it.
@@ -53,17 +53,6 @@ after that we make a new column with updated wt also make sure that the sum of u
 
 
 
-Initially, in AdaBoost, we assign a weight to every row, which is \( \frac{1}{n} \) (where \( n \) is the number of rows), meaning each row has the same weight at the start.
-
-In the first stage, we train a decision tree with a maximum depth of 1, known as a decision stump. We generate many decision stumps but select the one that results in the maximum decrease in entropy. This becomes our model \( m1 \). We then test \( m1 \) and calculate \( \alpha1 \), which depends on the error rate.
-
-To determine \( \alpha1 \), consider we have three models \( a \), \( b \), and \( c \) with error rates of 100%, 0%, and 50%, respectively. Model \( a \) is actually the most predictable because it always makes mistakes, so we can simply invert its predictions. Therefore, low error rates correspond to high \( \alpha \) values, and high error rates correspond to negative \( \alpha \) values. For a 50% error rate, \( \alpha \) is 0.5. The formula used is \( \frac{1}{2} \ln \left(\frac{1-\text{error}}{\text{error}}\right) \), where error is the sum of the weights of all misclassified points (initially set to \( \frac{1}{n} \)).
-
-Next, we perform upsampling by increasing the weights of the misclassified points, so the next model can focus on these points. The weight updates are as follows:
-- For misclassified points: \( \text{new\_wt} = \text{curr\_wt} \times e^{\alpha1} \)
-- For correctly classified points: \( \text{new\_wt} = \text{curr\_wt} \times e^{-\alpha1} \)
-
-After updating the weights, we ensure their sum is 1 by normalizing them. This process is repeated, with each new model building on the mistakes of the previous ones, iteratively improving the overall performance.
 
 
 
