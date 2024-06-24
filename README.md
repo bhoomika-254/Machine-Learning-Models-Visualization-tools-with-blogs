@@ -48,17 +48,17 @@ But how do we calculate it? suppose we got 3 models a, b and c and we got error 
 Next, we perform upsampling by increasing the weights of the misclassified points, so the next model can focus on these points. The weight updates are as follows:
 for misclassified points: new_wt= curr_wt*e^alpha1
 for correctly classified points: new_wt= curr_wt*e^-alpha1
-after that we make a new column with updated wt also make sure that the sum of updated weight is 1 so basically we normalise it.
+After updating the weights, we ensure their sum is 1 by normalizing them. This process is repeated, with each new model building on the mistakes of the previous ones, iteratively improving the overall performance.
 
+For upsampling in AdaBoost, we use the new weights to create a range that starts from 0. For example, suppose our new weights are 0.166, 0.25, 0.25, 0.167, and 0.167. We create ranges as follows: 0-0.166, 0.166-0.416, 0.416-0.666, 0.666-0.833, and 0.833-1. We then generate n (the number of rows, say 5) random numbers between 0 and 1. Suppose the random numbers are 0.13, 0.43, 0.62, 0.50, and 0.8. We select the rows corresponding to these random points within the generated ranges, resulting in the selection of rows 1, 3, 3, 3, and 4, creating a new dataset.
 
+The benefit of this approach is that rows with larger weights, which are typically the misclassified rows, have a higher probability of being selected multiple times. This ensures that the new dataset emphasizes the rows that were previously misclassified, allowing the next decision stump to focus on these difficult cases but how? 
 
+We then train a new decision stump on this upsampled dataset, calculate a new alpha alpha2, and update the weights again. This process repeats, with each iteration focusing more on the misclassified points from the previous iterations, thus progressively improving the model's accuracy.
 
+Looking at hyperparameters
+1. base estimator: we use it to select models as this algo can be run in Decision tree, linear regression,SVM but not KNN because no feature for sample weight available
 
+2. n_estimator: number of decision trees(here we can select anu number of DT as it stopes early if correct decision tree is found if not it goes on)
 
-
-
-
-
-
-
-now for upsampling we make a range starting from 0 like 0-0.166 then 0.166-0.416 the 0.416-0.666 and so on, and we generate n(number of rows say in this case 5) random numbers from 0-1 and and suppose we goy .13 then .43 then .62 the .50 then .8 and whereever these random points will fall in the range generated we select that row and we selected 1,3,3,3,4 and create a new dataset with that. now whats the benefit of doing this? we can see 3 is picked up more number of times so row 3 have larger range and that row is misclassified so now we train a new decision stump and generate alpha 2 and update wt and we go on repeating
+3. learning rate: generally it is 1 byt we reduce it as it usually helps to deal with overfitting as it reduces the amplitude of sample weights at each step
