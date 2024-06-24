@@ -1,4 +1,24 @@
-# SGD-Visualiser
+# Machine Learning Models Visualization tools with some blogs
+
+Till now I have uploaded
+1. Gradient descent visualization tool (For GD,SGD and simulated_annealing for both convex and non convex curve)
+2. Bagging Classifier visualization tool
+3. Bagging Regressor visualization tool
+4. Voting Classifier visualization tool
+5. Voting Regressor visualization tool
+6. Decision Tree visualization tool
+
+Upcoming:
+1. Random forest visualization tool
+2. SVM Blog
+3. XGBoost Blog
+4. XGBoost visualization tool
+5. Decision Tree blog
+6. Notebook for all ML Models
+7. Mathematical approach for all of the blogs
+8. Papers
+9. Notebook for visualizing few models
+10. Stacking and blending Blog and notebook
 
 # Clustering Algorithms
 
