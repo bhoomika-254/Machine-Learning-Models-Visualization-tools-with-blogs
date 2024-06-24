@@ -100,6 +100,7 @@ but what is the ideal num of clusters? we plot dentogram and cut the longest hor
 Benefits? Widely applicable in diff datasets 
 And disadvantage? We cant use in large dataset like suppose we got a data set with 10^6 number of points (rows) so for proximity matrix we need 10^12 bytes space which is like 10gb so we need 10gb RAM to compute.
 
+# Ensemble learning Methods
 
 # Random Forest
 
@@ -191,7 +192,9 @@ and like this we continue
 
 So in Gradient Boosting Classifier the first model is just a leaf node with the log odds (log(number of 1s/number of 0s)) as output column and we convert this log loss to Probability using (1/(1+e^(-log odds)))
 
-It is being observed that max leaf nodes 8-32 gives best result
+It is being observed that max leaf nodes 8-32 gives best result 
+
+........ongoing...........
 
 
 
