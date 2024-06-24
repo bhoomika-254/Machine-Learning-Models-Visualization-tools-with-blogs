@@ -20,6 +20,21 @@ Upcoming:
 9. Notebook for visualizing few models
 10. Stacking and blending Blog and notebook
 11. Bagging and voting blog
+12. DBSCAN Clustering Blog
+
+# Gradient descent 
+Visualization tool:
+
+......Blog Coming Soon........
+
+# Decision Tree
+Visualization tool:
+
+......Blog Coming Soon........
+
+# SVM
+
+......Blog Coming Soon........
 
 # Clustering Algorithms
 
@@ -121,7 +136,33 @@ but what is the ideal num of clusters? we plot dentogram and cut the longest hor
 Benefits? Widely applicable in diff datasets 
 And disadvantage? We cant use in large dataset like suppose we got a data set with 10^6 number of points (rows) so for proximity matrix we need 10^12 bytes space which is like 10gb so we need 10gb RAM to compute.
 
+
+# DBSCAN Clustering
+
+......Blog Coming Soon........
+
+
 # Ensemble learning Methods
+
+# Voting Classifier
+Visualization tool:
+
+......Blog Coming Soon........
+
+# Voting Regressor
+Visualization tool:
+
+......Blog Coming Soon........
+
+# Bagging Regressor
+Visualization tool:
+
+......Blog Coming Soon........
+
+# Bagging Regressor
+Visualization tool:
+
+......Blog Coming Soon........
 
 # Random Forest
 
@@ -219,7 +260,6 @@ It is being observed that max leaf nodes 8-32 gives best result
 
 
 
-# SVM
-......Coming Soon........
+# Stacking and Blending
 
-
+......Blog Coming Soon........
