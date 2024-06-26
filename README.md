@@ -286,6 +286,9 @@ https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/3518b8dc-ae7b-456e
 
 # K Means
 
+![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/fc27fe35-6b14-4600-bab9-4997236ba063)
+
+
 K-means is an unsupervised algorithm that also works in higher dimensions.
 
 The first step involves deciding on the number of clusters K which is pretty weird as the algorithm doesn't determine the optimal number of clusters on its own.
@@ -309,6 +312,24 @@ To decide the number of clusters initially in K-means, we can use the elbow meth
 4. **Identify the Elbow Point:** Look for the point on the graph where the decrease in WCSS starts to level off, forming an "elbow" shape. This point indicates where adding more clusters doesn't significantly improve the clustering performance, suggesting an optimal number of clusters.
 
 The elbow point is where the WCSS starts to stabilize, indicating the most appropriate number of clusters for the dataset. This method helps balance the trade-off between having too few or too many clusters.
+
+![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/0d0792b2-3328-448d-b982-baefbcb9eef1)
+
+In this case we can say 8 is the number of cluster
+
+Code: 
+
+```bash
+from sklearn.cluster import KMeans
+wcss = []
+X = df[['X' , 'Y']] #change X and Y based upon your desired one
+for i in range(1,11):
+    km = KMeans(n_clusters=i,max_iter=300,tol=0.0001,algorithm='elkan')
+    km.fit_predict(X)
+    wcss.append(km.inertia_)
+plt.plot(range(1,11),wcss)
+plt.xlabel('Number of Clusters') , plt.ylabel('Inertia')
+```
 
 
 # KNN
