@@ -68,6 +68,10 @@ While it is easy to write these nested if and else condition just by looking at 
 A practical implementation of a decision tree can be seen in the game Akinator.
 https://en.akinator.com/
 
+I have made this notebook to visualise the formation of decision tree step-wise using this amazing library dtreeviz which you can checkout through
+
+https://www.kaggle.com/code/suvroo/dtreeviz-a-decision-tree-visualization-tool
+
 **Few terminologies before starting off**
 
 1. **Root Node:** The starting point of a decision tree where the entire dataset begins to split based on different features or conditions.
