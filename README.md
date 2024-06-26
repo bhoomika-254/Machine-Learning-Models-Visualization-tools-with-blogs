@@ -399,6 +399,11 @@ so distance between cluster a and b will be sq of all distances minus the varian
 
 but what is the ideal num of clusters? we plot dentogram and cut the longest horizontal line who is not being cut by anyone else (inter cluster similarity)
 
+Dendrogram for a particular dataset:
+
+![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/e2ca6e6c-18a3-4e8d-a340-2c29391ab4fe)
+
+As we can see we can cut 5 lines without any break hence 5 is the number of clusters formed
 
 Benefits? Widely applicable in diff datasets 
 And disadvantage? We cant use in large dataset like suppose we got a data set with 10^6 number of points (rows) so for proximity matrix we need 10^12 bytes space which is like 10gb so we need 10gb RAM to compute.
