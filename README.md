@@ -45,10 +45,9 @@ https://github.com/suvraadeep/SGD-Visualiser/assets/154406386/67fc9ace-4351-4e2b
 ......Blog Coming Soon........
 
 # Decision Tree
-```bash
-Programmatically, decision trees are essentially a large structure of nested if-else conditions. Mathematically, decision trees consist of hyperplanes that run parallel to the axes, dividing the coordinate system into hyper cuboids.
+
+**Programmatically, decision trees are essentially a large structure of nested if-else conditions. Mathematically, decision trees consist of hyperplanes that run parallel to the axes, dividing the coordinate system into hyper cuboids.**
 Looking at it through an image we see
-```
 
 **Mathematically**
 
