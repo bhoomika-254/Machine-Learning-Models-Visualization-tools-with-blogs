@@ -1,8 +1,7 @@
 # Decision Tree
-```bash
-Programmatically, decision trees are essentially a large structure of nested if-else conditions. Mathematically, decision trees consist of hyperplanes that run parallel to the axes, dividing the coordinate system into hyper cuboids.
+
+**Programmatically, decision trees are essentially a large structure of nested if-else conditions. Mathematically, decision trees consist of hyperplanes that run parallel to the axes, dividing the coordinate system into hyper cuboids.**
 Looking at it through an image we see
-```
 
 **Mathematically**
 
