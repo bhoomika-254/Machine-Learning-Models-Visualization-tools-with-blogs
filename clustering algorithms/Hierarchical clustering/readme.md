@@ -44,3 +44,6 @@ As we can see we can cut 5 lines without any break hence 5 is the number of clus
 Benefits? Widely applicable in diff datasets 
 And disadvantage? We cant use in large dataset like suppose we got a data set with 10^6 number of points (rows) so for proximity matrix we need 10^12 bytes space which is like 10gb so we need 10gb RAM to compute.
 
+
+Research paper link 
+https://arxiv.org/pdf/1109.2378

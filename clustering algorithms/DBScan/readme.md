@@ -118,3 +118,7 @@ Now you must have felt that there are many advantages of using DBSCAN like it is
 
 Visualization tool for DBSCAN
 https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
+
+
+Research Paper Link
+https://arxiv.org/pdf/1810.13105.pdf

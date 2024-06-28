@@ -517,6 +517,9 @@ As we can see we can cut 5 lines without any break hence 5 is the number of clus
 Benefits? Widely applicable in diff datasets 
 And disadvantage? We cant use in large dataset like suppose we got a data set with 10^6 number of points (rows) so for proximity matrix we need 10^12 bytes space which is like 10gb so we need 10gb RAM to compute.
 
+Research paper link 
+https://arxiv.org/pdf/1109.2378
+
 
 # DBSCAN Clustering
 
@@ -635,7 +638,11 @@ Also one more point I forgot to mention that DBSCAN labels all outliers/noise as
 
 Now you must have felt that there are many advantages of using DBSCAN like it is robust to outliers, we dont need to specify the number of clusters, we can find any arbitary shaped clusters also there are only 2 hyperparameters to tune. But we got some disadvantages too like it is very sensitive to hyperparameters, it fails in when all sparse points or in a single core points and it dosent predict.
 
+Visualization tool for DBSCAN
+https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
 
+Research paper Link
+https://arxiv.org/pdf/1810.13105.pdf
 
 # Ensemble learning Methods
 
@@ -753,6 +760,8 @@ What are the hyperparameters?
 2. Bootstraped: Randomly or not
 3. max_samples: number of samples each tree will receive (usually 50%-75% gives best results)
 
+Research Paper link
+https://jmlr.org/papers/volume13/biau12a/biau12a.pdf
 
 # Adaboost
 
@@ -786,6 +795,8 @@ Looking at hyperparameters
 
 3. learning rate: generally it is 1 byt we reduce it as it usually helps to deal with overfitting as it reduces the amplitude of sample weights at each step
 
+Research Paper Link
+https://www.researchgate.net/publication/321583409_AdaBoost_typical_Algorithm_and_its_application_research/fulltext/5a29be04a6fdccfbbf8185df/AdaBoost-typical-Algorithm-and-its-application-research.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
 
 # Gradient boosting
 
@@ -817,7 +828,8 @@ It is being observed that max leaf nodes 8-32 gives best result
 
 ........ongoing...........
 
-
+Research Paper Link
+https://www.researchgate.net/publication/259653472_Gradient_Boosting_Machines_A_Tutorial/fulltext/02d519920cf2c60a84412f57/Gradient-Boosting-Machines-A-Tutorial.pdf?_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6InB1YmxpY2F0aW9uIiwicGFnZSI6InB1YmxpY2F0aW9uIn19
 
 # Stacking and Blending
 
@@ -1010,6 +1022,8 @@ And calculating residual 2 we finally we get our updated table for stage 2 as
 
 As we know, the residual represents the error, and our goal is to minimize this error, ideally reaching a state where the residual is 0 or close to 0. To achieve this, we repeat the entire process until the residuals are minimized. In this case, we create a new tree by treating CGPA as the input column and the residual 2 as the output column and then continue iterating this process.
 
+XGBoost Research Paper: 
+https://browse.arxiv.org/pdf/1603.02754
 
 
 # CatBoost
@@ -1172,7 +1186,8 @@ CatBoost's approach to building trees remains consistent regardless of the numbe
 
 In summary, CatBoost's use of symmetric or oblivious decision trees across datasets with multiple input columns underscores its commitment to leveraging simpler, weaker learners for improved ensemble performance and computational efficiency. This approach aligns with the foundational principles of Gradient Boosting, where incremental improvements through sequentially added trees lead to robust and accurate predictive models.
 
-
+Research Paper Link
+https://arxiv.org/pdf/1706.09516
 
 
 
