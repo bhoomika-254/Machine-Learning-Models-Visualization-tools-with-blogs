@@ -773,11 +773,11 @@ Each time CatBoost creates a tree, it begins by randomizing the rows of the trai
 ![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/39732023-6208-475a-8a52-ce6448c4924a)
 
 
-Step 3: From this step is where the magic of catboost relies because here we construct a tree where we sort the table based upon the encoded values
+**Step 3:** From this step is where the magic of catboost relies because here we construct a tree where we sort the table based upon the encoded values
 
 ![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/bd460b0f-3ab5-46fc-92ba-e98a1478c38f)
 
-Step 4: Now same as XGBoost we calculate the similarity score which is nothing but the average of two consecutive row values 
+**Step 4:** Now same as XGBoost we calculate the similarity score which is nothing but the average of two consecutive row values 
 For Regression problem similarity score is given by
 
 
@@ -795,7 +795,7 @@ So after calculating similarity score for the above dataset we get,
 
 So 0.4 and 0.29 are the potential similarity score and now we construct tree
 
-Step 5 in CatBoost involves initializing all leaf outputs to 0. Subsequently, each row's residual (current output) is assigned to a specific leaf.
+**Step 5:** in CatBoost involves initializing all leaf outputs to 0. Subsequently, each row's residual (current output) is assigned to a specific leaf.
 
 ![image](https://github.com/suvraadeep/Machine-Learning-Models-Visualization-tools-with-blogs/assets/154406386/7ce1df8a-fbc3-481b-bdb9-a341df992814)
 
