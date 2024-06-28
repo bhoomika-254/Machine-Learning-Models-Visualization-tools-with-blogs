@@ -1190,7 +1190,8 @@ In summary, CatBoost's use of symmetric or oblivious decision trees across datas
 Research Paper Link
 https://arxiv.org/pdf/1706.09516
 
-
+An amazing book to understand the Elements of Statistical Learning deeply which I personally found useful
+https://hastie.su.domains/Papers/ESLII.pdf
 
 
 For any required changes for any mistake I made feel free to point me out over suvradeep@iitg.ac.in
