@@ -1,26 +1,27 @@
 # Machine Learning Models Visualization tools with some blogs
 
-Till now I have uploaded
+So, I started this repo thinking, "Hey, I'll just toss up some Streamlit apps to visualize my ensemble learning models." But then I had this brilliant idea why stop there? Why not throw in some blogs and notebooks too? Because, you know, it'll totally be useful. This repo's basically my personal guidebook now lol. And hey, if anyone else wants to peek at my stuff, they can check out my blogs, notebooks, and those cool Streamlit apps I whipped up.
+
+***Till now I have uploaded***
 1. Gradient descent visualization tool (For GD,SGD and simulated_annealing for both convex and non convex curve)
 2. Bagging Classifier visualization tool
 3. Bagging Regressor visualization tool
 4. Voting Classifier visualization tool
 5. Voting Regressor visualization tool
 6. Decision Tree visualization tool
+7. XGBoost Blog
+8. Decision Tree blog
+9. Notebook for visualizing decision tree each step
+10. DBSCAN Clustering Blog
 
 Upcoming:
 1. Random forest visualization tool
 2. SVM Blog
-3. XGBoost Blog
-4. XGBoost visualization tool
-5. Decision Tree blog
-6. Notebook for all ML Models
-7. Mathematical approach for all of the blogs
-8. Papers
-9. Notebook for visualizing few models
-10. Stacking and blending Blog and notebook
-11. Bagging and voting blog
-12. DBSCAN Clustering Blog
+3. Notebook for all ML Models
+4. Mathematical approach for all of the blogs
+5. Stacking and blending Blog and notebook
+6. Bagging and voting blog and notebook
+7. Gradient descent blog
 
 
 # Gradient descent 
