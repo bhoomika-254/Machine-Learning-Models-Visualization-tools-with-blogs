@@ -114,3 +114,7 @@ And for the following silhuette score heatmap we get global maximum as 0.26 for 
 Also one more point I forgot to mention that DBSCAN labels all outliers/noise as cluster '-1'
 
 Now you must have felt that there are many advantages of using DBSCAN like it is robust to outliers, we dont need to specify the number of clusters, we can find any arbitary shaped clusters also there are only 2 hyperparameters to tune. But we got some disadvantages too like it is very sensitive to hyperparameters, it fails in when all sparse points or in a single core points and it dosent predict.
+
+
+Visualization tool for DBSCAN
+https://www.naftaliharris.com/blog/visualizing-dbscan-clustering/
