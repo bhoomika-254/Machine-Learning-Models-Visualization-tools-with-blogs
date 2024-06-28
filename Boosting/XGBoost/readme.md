@@ -184,3 +184,5 @@ And calculating residual 2 we finally we get our updated table for stage 2 as
 
 As we know, the residual represents the error, and our goal is to minimize this error, ideally reaching a state where the residual is 0 or close to 0. To achieve this, we repeat the entire process until the residuals are minimized. In this case, we create a new tree by treating CGPA as the input column and the residual 2 as the output column and then continue iterating this process.
 
+XGBoost Research Paper: 
+https://browse.arxiv.org/pdf/1603.02754
