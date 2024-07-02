@@ -1,6 +1,6 @@
 # Machine Learning Models Visualization tools with some blogs
 
-So, I started this repo thinking, "Hey, I'll just toss up some Streamlit apps to visualize my ensemble learning models." But then I had this brilliant idea why stop there? Why not throw in some blogs and notebooks too? Because, you know, it'll totally be useful. This repo's basically my personal guidebook now lol. And hey, if anyone else wants to peek at my stuff, they can check out my blogs, notebooks, and those cool Streamlit apps I whipped up.
+So, I started this repo thinking, "Hey, I'll just toss up some Streamlit apps to visualize my ensemble learning models." But then I had this thought why stop there lol? Why not add some blogs and notebooks too? Because it'll totally be useful. This repo's basically my personal guidebook now lol. And hey, if anyone else wants to peek at my stuff, they can check out my blogs, notebooks, and those cool Streamlit apps I whipped up.
 
 ***Till now I have uploaded***
 1. Gradient descent visualization tool (For GD,SGD and simulated_annealing for both convex and non convex curve)
