@@ -88,7 +88,7 @@ https://www.kaggle.com/code/suvroo/dtreeviz-a-decision-tree-visualization-tool
 **So lets look at a pseudo code for splitting column/row wise**
 1. Begin with your training dataset which should have some feature variable for say classification and regression output
 2. Determine the best feature in the dataset to split the data on. But now you might think how much to split? where to stop? To answer this question, we need to know about few more concepts like entropy, information gain, and Gini index which we will look below
-3. Split the data into subsets that contains the correst values for the best feature this splitting basically defines a node on a tree. i.e. each node is a splitting point based on a certain feature from our data
+3. Split the data into subsets that contains the correct values for the best feature this splitting basically defines a node on a tree. i.e. each node is a splitting point based on a certain feature from our data
 4. Recursively generate new tree nodes by using the subset of data created in step 3
 
 **Before diving into everything else, let's understand what entropy is**
